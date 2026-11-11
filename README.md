@@ -31,7 +31,30 @@ Spring Security: Authentication and authorization for secure access.
 
 Maven: Dependency management and build automation.
 
+---
 
+## Screenshots
 
-
-
+<p align="center">
+  <img src="Results/Picture1.jpg" width="49%" alt="Student management interface 1"/>
+  <img src="Results/Picture2.png" width="49%" alt="Student management interface 2"/>
+</p>
+<p align="center">
+  <img src="Results/Picture3.jpg" width="49%" alt="Student management interface 3"/>
+  <img src="Results/Picture4.jpg" width="49%" alt="Student management interface 4"/>
+</p>
+<p align="center">
+  <img src="Results/Picture5.jpg" width="49%" alt="Student management interface 5"/>
+  <img src="Results/Picture6.jpg" width="49%" alt="Student management interface 6"/>
+</p>
+<p align="center">
+  <img src="Results/Picture7.jpg" width="49%" alt="Student management interface 7"/>
+  <img src="Results/Picture8.png" width="49%" alt="Student management interface 8"/>
+</p>
+<p align="center">
+  <img src="Results/Picture9.jpg" width="49%" alt="Student management interface 9"/>
+  <img src="Results/Picture10.jpg" width="49%" alt="Student management interface 10"/>
+</p>
+<p align="center">
+  <img src="Results/Picture11.jpg" width="49%" alt="Student management interface 11"/>
+</p>
