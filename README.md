@@ -1,37 +1,49 @@
-# Student-Database-Management-System
+# Student Database Management System
 
-Features : 
+A student-record management project. The existing project description lists staff login, student-record CRUD, marks management, and attendance management.
 
+> **Repository packaging note:** The application source is currently stored as `student_database_management_system.zip`; the repository root does not contain the extracted Spring Boot source tree. The features and technology stack below are taken from the existing project description and have not yet been independently verified against the contents of that archive.
 
-Staff Registration & Login
-Add Student
-View, Update, Delete Student Information
-Add Marks
-View, Update, Delete Marks
-Add Attendance
-View, Update, Delete Attendance
-Home Page
-Contact Us
-About Us
-Staff Logout
+## Features described by the project
 
-Technology Stack : 
+- Staff registration and login.
+- Add, view, update, and delete student records.
+- Add, view, update, and delete student marks.
+- Add, view, update, and delete attendance records.
+- Home, About, and Contact pages.
+- Staff logout.
 
-Spring Boot: Backend framework for handling business logic and data persistence.
+## Technology stack described by the project
 
-Thymeleaf: Templating engine for dynamic server-side HTML rendering.
+- Java and Spring Boot for backend application logic.
+- Thymeleaf for server-side HTML rendering.
+- Spring Data JPA and Hibernate for persistence / ORM.
+- MySQL for relational storage.
+- Spring Security for authentication and authorization.
+- HTML, CSS, and JavaScript for the user interface.
+- Maven for dependency management and builds.
 
-Spring Data JPA & Hibernate: Database interaction and object-relational mapping.
+## Repository contents
 
-MySQL: Relational database for storing student data.
+- `student_database_management_system.zip` — archived project source.
+- `Results/` — application screenshots and supporting files.
+- `README.md` — project overview and stated technology stack.
 
-HTML, CSS, JavaScript: Frontend structure, styling, and interactivity.
+## Inspect and run the application
 
-Spring Security: Authentication and authorization for secure access.
+Extract the archive locally before attempting to build or run the project:
 
-Maven: Dependency management and build automation.
+```bash
+unzip student_database_management_system.zip -d student-database-management-system
+cd student-database-management-system
+```
 
+The repository does not expose the extracted `pom.xml`, Spring Boot entry point, application properties, schema scripts, or database configuration at its root. Once extracted, inspect the project files and follow their Maven / Spring Boot setup instructions. Configure the MySQL datasource and create the required database before starting the application.
 
+## Documentation and code-audit status
 
+The high-level features and stack are documented, but the implementation cannot be accurately audited from the current root-level repository contents because the source is packaged in a ZIP archive. Extract and commit the source tree (excluding secrets and build outputs), or provide the archive for a deeper review, before making claims about database schema, endpoint design, validation, or security configuration.
 
+## License
 
+See the archive's license and third-party dependency terms.
